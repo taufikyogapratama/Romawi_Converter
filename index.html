@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Romawi Converter</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pengubah Angka Numerik Ke Romawi</h1>
+        </header>
+        <main>
+            <section id="inputan">
+                <form>
+                    <label for="number">Masukkan Angka</label><br>
+                    <input type="number" id="number" name="angka" required><br>
+                    <button id="convert-btn" onclick="romawi_converter(event)">Ubah</button>
+                </form>
+            </section>
+
+            <section id="hasil">
+                <p id="output"></p>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

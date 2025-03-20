@@ -37,8 +37,8 @@ const romawi_converter = (event) => {
 
             output.innerHTML = `${result}`
             display_output.style.display = "block"
-            display_output.style.backgroundColor = "white"
-            output.style.color = "black"
+            display_output.style.backgroundColor = "#8B5FBF"
+            output.style.color = "white"
         }
     }else{
         output.innerHTML = "Please enter a valid number"
